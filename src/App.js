@@ -3,9 +3,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Hello World!</h1>
-    </div>
+    <main className='App'>
+     <section className='glass'>
+       <h1>Hello World!</h1>
+     </section>
+     <div className='circle1'></div>
+     <div className='circle2'></div>
+    </main>
   );
 }
 
