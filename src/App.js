@@ -40,6 +40,7 @@ function App() {
             <input type="text"/>
           </div>
           <div className="cards">
+
             <div className="card">
               <img src="./images/assassins.png" alt="Assassins Cread"/>
               <div className="card-info">
@@ -49,6 +50,7 @@ function App() {
               </div>
               <h2 className="percentage">60%</h2>
             </div>
+
             <div className="card">
               <img src="./images/sackboy.png" alt="Sack Boy"/>
               <div className="card-info">
@@ -58,6 +60,7 @@ function App() {
               </div>
               <h2 className="percentage">20%</h2>
             </div>
+            
             <div className="card">
               <img src="./images/spiderman.png" alt="Spider Man"/>
               <div className="card-info">
