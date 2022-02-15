@@ -1,16 +1,10 @@
+import Card from "./Card";
+
 export default function Cards() {
   return (
     <div className="cards">
             
-    <div className="card">
-      <img src="./images/assassins.png" alt="Assassins Cread" />
-      <div className="card-info">
-        <h2>Assassins Creed Valhalla</h2>
-        <p>PS5 Version</p>
-        <div className="progress"></div>
-      </div>
-      <h2 className="percentage">60%</h2>
-    </div>
+   <Card img="./images/assassins.png" alt="Assassins Cread" title="Assassins Creed Valhalla" version="PS5 Version" percentage="60%" />
 
     <div className="card">
       <img src="./images/sackboy.png" alt="Sack Boy" />

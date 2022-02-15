@@ -1,5 +1,5 @@
-import Dashboard from "./components/Dashboard"
-import Cards from "./components/Cards"
+import Dashboard from "./components/Dashboard";
+import Cards from "./components/Cards";
 import "./App.css";
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
             <h1>Active Games</h1>
             <input type="text" />
           </div>
-         <Cards />
+          <Cards />
         </section>
       </section>
       <div className="circle1"></div>
